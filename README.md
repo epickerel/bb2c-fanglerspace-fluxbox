@@ -16,7 +16,7 @@ gray jumper wire. This board was chosen for the combination of its diminutive si
 A replacement to this board should at least meet the present specs, but offer additional pins for input/output
 and possibly bluetooth/wifi capabilities.
 
-Pin assignment is done in `hardware.py`.
+Pin assignment is done in `hardware.py`. What's in this repository may not match what's on the board!
 
 The "flow" bars are [144/m Neopixels](https://www.amazon.com/gp/product/B09MLTPS95), and are addressed via a shared data line
 so that their animations are mirrored. The power requirements are greater than what a small microcontroller can provide, so
