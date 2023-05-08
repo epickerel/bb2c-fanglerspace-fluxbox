@@ -22,7 +22,7 @@ The "flow" bars are [144/m Neopixels](https://www.amazon.com/gp/product/B09MLTPS
 so that their animations are mirrored. The power requirements are greater than what a small microcontroller can provide, so
 an external 5v power supply is connected (it shares a ground with the microcontroller to complete the data circuit).
 
-The jump button is an [https://www.adafruit.com/product/4190](Adafruit triangle pushbutton) modified with a
+The jump button is an [Adafruit triangle pushbutton](https://www.adafruit.com/product/4190) modified with a
 [diffused through-hole Neopixel LED](https://www.adafruit.com/product/1734). And if you have ideas for a good housing for a
 button this astoundingly chunky, please have at it! The button itself requires two pins: one for the button
 functionality and one for its neopixel. Note the dangling blue wire: that is the neopixel data line, and you can connect more
