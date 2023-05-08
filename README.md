@@ -30,7 +30,7 @@ pixels to the end of that!
 
 ## Code
 
-This uses [https://circuitpython.org/](Circuitpython), which offers a fun and simple way to code
+This uses [Circuitpython](https://circuitpython.org/), which offers a fun and simple way to code
 for supported microcontrollers. If you're just getting started, [https://codewith.mu/](Mu Editor) is
 the tool you'll want to interact wit the board from your laptop.
 
