@@ -54,4 +54,4 @@ on the board. These include:
 - adafruit_led_animation
 - adafruit_debouncer
 
-One additional library is required: [https://cognitivegears.github.io/CircuitPython_Schedule/](circuitpython_schedule).
+One additional library is required: [circuitpython_schedule](https://cognitivegears.github.io/CircuitPython_Schedule/).
