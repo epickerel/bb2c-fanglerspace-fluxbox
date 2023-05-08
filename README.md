@@ -10,7 +10,7 @@ art belongs to all fanglers[^1] present.
 
 ## Hardware
 
-Presently, the board used for this project is an [https://learn.adafruit.com/adafruit-qt-py-2040](Adafruit QT-Py RP2040).
+Presently, the board used for this project is an [Adafruit QT-Py RP2040](https://learn.adafruit.com/adafruit-qt-py-2040).
 The pins used are A0, A1 and A2. A3 remains available for an additional device via the dangling
 gray jumper wire. This board was chosen for the combination of its diminutive size and substantial power.
 A replacement to this board should at least meet the present specs, but offer additional pins for input/output
@@ -18,12 +18,12 @@ and possibly bluetooth/wifi capabilities.
 
 Pin assignment is done in `hardware.py`.
 
-The "flow" bars are [https://www.amazon.com/gp/product/B09MLTPS95](144/m Neopixels), and are addressed via a shared data line
+The "flow" bars are [144/m Neopixels](https://www.amazon.com/gp/product/B09MLTPS95), and are addressed via a shared data line
 so that their animations are mirrored. The power requirements are greater than what a small microcontroller can provide, so
 an external 5v power supply is connected (it shares a ground with the microcontroller to complete the data circuit).
 
 The jump button is an [https://www.adafruit.com/product/4190](Adafruit triangle pushbutton) modified with a
-[https://www.adafruit.com/product/1734](diffused through-hole Neopixel LED). And if you have ideas for a good housing for a
+[diffused through-hole Neopixel LED](https://www.adafruit.com/product/1734). And if you have ideas for a good housing for a
 button this astoundingly chunky, please have at it! The button itself requires two pins: one for the button
 functionality and one for its neopixel. Note the dangling blue wire: that is the neopixel data line, and you can connect more
 pixels to the end of that!
@@ -31,7 +31,7 @@ pixels to the end of that!
 ## Code
 
 This uses [Circuitpython](https://circuitpython.org/), which offers a fun and simple way to code
-for supported microcontrollers. If you're just getting started, [https://codewith.mu/](Mu Editor) is
+for supported microcontrollers. If you're just getting started, [Mu Editor](https://codewith.mu/) is
 the tool you'll want to interact wit the board from your laptop.
 
 Circuitpython boards automatically load `code.py`. In our case, this file simply imports (and runs)
@@ -46,7 +46,7 @@ effect events; this is a great place to play around with different effects.
 
 ## Libraries
 
-Some [https://circuitpython.org/libraries](Circuitpython libraries) are required for this, and should be placed in the `/lib` directory
+Some [Circuitpython libraries](https://circuitpython.org/libraries) are required for this, and should be placed in the `/lib` directory
 on the board. These include:
 
 - asyncio
